@@ -1,0 +1,630 @@
+.section_four {
+    margin-top: 50px;
+}
+
+.section_four .container {
+    width: 80%;
+    margin: auto;
+}
+
+.section_four h4 {
+    color: #7f7f90;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    font-size: 14px;
+}
+
+.section_four h2 {
+    margin-top: 0px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.section_four #red_color {
+    color: var(--color-primary);
+}
+
+.section_four .infos .content h3 {
+    font-family: 'Inter', sans-serif;
+    color: #7d7d7d;
+    font-size: 20px;
+}
+
+.section_four .infos p {
+    font-family: 'Open Sans', sans-serif;
+    color: #212529;
+    font-size: 16px;
+}
+
+iframe {
+    width: 100%;
+    margin-left: 8px;
+}
+
+.section_four .infos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.section_four .infos .our_address,
+.section_four .infos .email_us,
+.section_four .infos .call_us,
+.section_four .infos .opening_hours {
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    width: 48%;
+    background-color: #eee;
+    margin-top: 10px;
+    border-radius: 7px;
+}
+
+.section_four .infos .our_address .content,
+.section_four .infos .email_us .content,
+.section_four .infos .call_us .content,
+.section_four .infos .opening_hours .content {
+    padding-left: 30px;
+}
+
+.section_four .infos .our_address .icon,
+.section_four .infos .email_us .icon,
+.section_four .infos .call_us .icon,
+.section_four .infos .opening_hours .icon {
+    position: relative;
+    background-color: var(--color-primary);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.section_four .infos .our_address .icon span i,
+.section_four .infos .email_us .icon span i,
+.section_four .infos .call_us .icon span i,
+.section_four .infos .opening_hours .icon span i {
+    color: white;
+    font-size: 23px;
+    position: absolute;
+    top: 17px;
+    left: 16px;
+}
+
+.section_four .form {
+    margin: auto;
+    width: 99%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.section_four .form form {
+    padding: 12px;
+    margin-top: 30px;
+}
+
+.section_four .form .row_1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.section_four .form .row_1 input {
+    border: hsla(240, 7%, 84%, 0.753);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 10px;
+    padding: 15px;
+    width: 45%;
+}
+
+.section_four .form #sub {
+    border: hsla(240, 7%, 84%, 0.753);
+    margin-left: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 10px;
+    padding: 15px;
+    width: 94%
+}
+
+.section_four .form textarea {
+    border: hsla(240, 7%, 84%, 0.753);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 10px;
+    padding: 15px;
+    width: 94%;
+    margin-left: 30px;
+}
+
+.section_four .btn {
+    width: 11%;
+    margin: auto;
+}
+
+.section_four .btn #red_btn2 {
+    width: 180px;
+    height: 50px;
+    border: var(--color-primary);
+    background-color: var(--color-primary);
+    color: white;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 575px) {
+    iframe {
+        width: 100%;
+        margin-left: 8px;
+    }
+
+    .section_four .infos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .section_four .infos .our_address,
+    .section_four .infos .email_us,
+    .section_four .infos .call_us,
+    .section_four .infos .opening_hours {
+        padding-left: 20px;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        background-color: #eee;
+        margin-top: 10px;
+        border-radius: 7px;
+    }
+
+    .section_four .infos .our_address .content,
+    .section_four .infos .email_us .content,
+    .section_four .infos .call_us .content,
+    .section_four .infos .opening_hours .content {
+        padding-left: 30px;
+    }
+
+    .section_four .infos .our_address .icon,
+    .section_four .infos .email_us .icon,
+    .section_four .infos .call_us .icon,
+    .section_four .infos .opening_hours .icon {
+        position: relative;
+        background-color: var(--color-primary);
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+    }
+
+    .section_four .infos .our_address .icon span i,
+    .section_four .infos .email_us .icon span i,
+    .section_four .infos .call_us .icon span i,
+    .section_four .infos .opening_hours .icon span i {
+        color: white;
+        font-size: 23px;
+        position: absolute;
+        top: 17px;
+        left: 16px;
+    }
+
+    .section_four .form {
+        margin: auto;
+        width: 99%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .section_four .form form {
+        width: 90%;
+        margin: auto;
+        padding: 12px;
+        margin-top: 30px;
+    }
+
+    .section_four .form .row_1 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .section_four .form .row_1 input {
+        border: hsla(240, 7%, 84%, 0.753);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        margin-top: 10px;
+        padding: 15px;
+        width: 100%;
+    }
+
+    .section_four .form #sub {
+        border: hsla(240, 7%, 84%, 0.753);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        margin-top: 10px;
+        padding: 15px;
+        width: 91%;
+        margin-left: 0px;
+        ;
+    }
+
+    .section_four .form textarea {
+        border: hsla(240, 7%, 84%, 0.753);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        margin-top: 10px;
+        padding: 15px;
+        width: 91%;
+        margin-left: 0px;
+        ;
+    }
+
+    .section_four .btn {
+        width: 50%;
+        margin: auto;
+    }
+
+    .section_four .btn #red_btn2 {
+        width: 180px;
+        height: 50px;
+        border: var(--color-primary);
+        background-color: var(--color-primary);
+        color: white;
+        border-radius: 50px;
+        margin-top: 20px;
+    }
+
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+
+    iframe {
+        width: 100%;
+        margin-left: 8px;
+    }
+
+    .section_four .infos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .section_four .infos .our_address,
+    .section_four .infos .email_us,
+    .section_four .infos .call_us,
+    .section_four .infos .opening_hours {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        background-color: #eee;
+        margin-top: 10px;
+        border-radius: 7px;
+    }
+
+    .section_four .infos .our_address .content,
+    .section_four .infos .email_us .content,
+    .section_four .infos .call_us .content,
+    .section_four .infos .opening_hours .content {
+        padding-left: 10px;
+    }
+
+    .section_four .infos .our_address .icon,
+    .section_four .infos .email_us .icon,
+    .section_four .infos .call_us .icon,
+    .section_four .infos .opening_hours .icon {
+        position: relative;
+        background-color: var(--color-primary);
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+    }
+
+    .section_four .infos .our_address .icon span i,
+    .section_four .infos .email_us .icon span i,
+    .section_four .infos .call_us .icon span i,
+    .section_four .infos .opening_hours .icon span i {
+        color: white;
+        font-size: 23px;
+        position: absolute;
+        top: 17px;
+        left: 16px;
+    }
+
+    .section_four .form {
+        margin: auto;
+        width: 99%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .section_four .form form {
+        width: 90%;
+        margin: auto;
+        padding: 12px;
+        margin-top: 30px;
+    }
+
+    .section_four .form .row_1 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .section_four .form .row_1 input {
+        border: hsla(240, 7%, 84%, 0.753);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        margin-top: 10px;
+        padding: 15px;
+        width: 100%;
+    }
+
+
+    .section_four .form #sub {
+        border: hsla(240, 7%, 84%, 0.753);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        margin-top: 10px;
+        padding: 15px;
+        width: 94%;
+        margin-left: 0px;
+        ;
+    }
+
+    .section_four .form textarea {
+        border: hsla(240, 7%, 84%, 0.753);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        margin-top: 10px;
+        padding: 15px;
+        width: 94%;
+        margin-left: 0px;
+        ;
+    }
+
+    .section_four .btn {
+        width: 50%;
+        margin: auto;
+    }
+
+    .section_four .btn #red_btn2 {
+        width: 180px;
+        height: 50px;
+        border: var(--color-primary);
+        background-color: var(--color-primary);
+        color: white;
+        border-radius: 50px;
+        margin-top: 20px;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+    iframe {
+        width: 100%;
+        margin-left: 8px;
+    }
+
+    .section_four .infos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .section_four .infos .our_address,
+    .section_four .infos .email_us,
+    .section_four .infos .call_us,
+    .section_four .infos .opening_hours {
+        display: flex;
+        align-items: center;
+        width: 46%;
+        background-color: #eee;
+        margin-top: 10px;
+        border-radius: 7px;
+    }
+
+    .section_four .infos .our_address .content,
+    .section_four .infos .email_us .content,
+    .section_four .infos .call_us .content,
+    .section_four .infos .opening_hours .content {
+        padding-left: 10px;
+    }
+
+    .section_four .infos .our_address .content p,
+    .section_four .infos .email_us .content p,
+    .section_four .infos .call_us .content p,
+    .section_four .infos .opening_hours .content p {
+        font-size: 12px;
+    }
+
+    .section_four .infos .our_address .content h3,
+    .section_four .infos .email_us .content h3,
+    .section_four .infos .call_us .content h3,
+    .section_four .infos .opening_hours .content h3 {
+        font-size: 14px;
+    }
+
+    .section_four .infos .our_address .icon,
+    .section_four .infos .email_us .icon,
+    .section_four .infos .call_us .icon,
+    .section_four .infos .opening_hours .icon {
+        position: relative;
+        background-color: var(--color-primary);
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+    }
+
+    .section_four .infos .our_address .icon span i,
+    .section_four .infos .email_us .icon span i,
+    .section_four .infos .call_us .icon span i,
+    .section_four .infos .opening_hours .icon span i {
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        padding: 4px;
+        top: 17px;
+        left: 16px;
+    }
+
+    .section_four .form {
+        margin: auto;
+        width: 99%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .section_four .form form {
+        width: 90%;
+        margin: auto;
+        padding: 12px;
+        margin-top: 30px;
+    }
+
+
+    .section_four .form .row_1 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .section_four .form .row_1 input {
+        border: hsla(240, 7%, 84%, 0.753);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        margin-top: 10px;
+        padding: 15px;
+        width: 100%;
+    }
+
+    .section_four .form #sub {
+        border: hsla(240, 7%, 84%, 0.753);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        margin-top: 10px;
+        padding: 15px;
+        width: 94%;
+        margin-left: 0px;
+        ;
+    }
+
+    .section_four .form textarea {
+        border: hsla(240, 7%, 84%, 0.753);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        margin-top: 10px;
+        padding: 15px;
+        width: 94%;
+        margin-left: 0px;
+        ;
+    }
+
+    .section_four .btn {
+        width: 50%;
+        margin: auto;
+    }
+
+    .section_four .btn #red_btn2 {
+        width: 180px;
+        height: 50px;
+        border: var(--color-primary);
+        background-color: var(--color-primary);
+        color: white;
+        border-radius: 50px;
+        margin-top: 20px;
+    }
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+
+    iframe {
+        width: 100%;
+        margin-left: 8px;
+    }
+
+    .section_four .infos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .section_four .infos .our_address,
+    .section_four .infos .email_us,
+    .section_four .infos .call_us,
+    .section_four .infos .opening_hours {
+        padding-left: 20px;
+        display: flex;
+        align-items: center;
+        width: 48%;
+        background-color: #eee;
+        margin-top: 10px;
+        border-radius: 7px;
+    }
+
+    .section_four .infos .our_address .content,
+    .section_four .infos .email_us .content,
+    .section_four .infos .call_us .content,
+    .section_four .infos .opening_hours .content {
+        padding-left: 30px;
+
+    }
+
+    .section_four .infos .our_address .icon,
+    .section_four .infos .email_us .icon,
+    .section_four .infos .call_us .icon,
+    .section_four .infos .opening_hours .icon {
+        position: relative;
+        background-color: var(--color-primary);
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+    }
+
+    .section_four .infos .our_address .icon span i,
+    .section_four .infos .email_us .icon span i,
+    .section_four .infos .call_us .icon span i,
+    .section_four .infos .opening_hours .icon span i {
+        color: white;
+        font-size: 23px;
+        position: absolute;
+        top: 17px;
+        left: 16px;
+    }
+
+    .section_four .form {
+        margin: auto;
+        width: 99%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .section_four .form form {
+        padding: 12px;
+        margin-top: 30px;
+    }
+
+    .section_four .form .row_1 {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .section_four .form .row_1 input {
+        border: hsla(240, 7%, 84%, 0.753);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        margin-top: 10px;
+        padding: 15px;
+        width: 45%;
+    }
+
+    .section_four .form #sub {
+        border: hsla(240, 7%, 84%, 0.753);
+        margin-left: 30px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        margin-top: 10px;
+        padding: 15px;
+        width: 94%
+    }
+
+    .section_four .form textarea {
+        border: hsla(240, 7%, 84%, 0.753);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        margin-top: 10px;
+        padding: 15px;
+        width: 94%;
+        margin-left: 30px;
+    }
+
+    .section_four .btn {
+        width: 11%;
+        margin: auto;
+    }
+
+    .section_four .btn #red_btn2 {
+        width: 180px;
+        height: 50px;
+        border: var(--color-primary);
+        background-color: var(--color-primary);
+        color: white;
+        border-radius: 50px;
+        margin-top: 20px;
+    }
+
+}

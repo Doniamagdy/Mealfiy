@@ -1,0 +1,760 @@
+:root {
+    --primary-hue: 0;
+    --primary-saturation: 84%;
+    --primary-lightness: 44%;
+    --color-primary: hsl(var(--primary-hue), var(--primary-saturation), var(--primary-lightness));
+}
+
+body {
+    font-family: 'Amatic SC', cursive;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    font-family: 'Open Sans', sans-serif;
+    background-color: white;
+    position: fixed;
+    z-index: 99999999999;
+    width: 100%;
+    height: 100px;
+}
+
+nav .container {
+    width: 70%;
+    margin: auto;
+}
+
+nav .navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav .navbar .logo {
+    position: relative;
+    width: 30%;
+}
+
+nav .navbar .logo h2 {
+    font-size: 30px;
+
+}
+
+nav .navbar .logo #red_dot {
+    background-color: var(--color-primary);
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    position: absolute;
+    left: 110px;
+    top: 50px;
+}
+
+nav .navbar .links {
+    width: 30%;
+}
+
+nav .navbar .links ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    list-style-type: none;
+}
+
+nav .navbar .links ul li a {
+    color: #7d7d7d;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+nav .navbar .moon {
+    width: 30%;
+    position: relative;
+}
+
+nav .navbar .moon span {
+    top: 25px;
+    left: 200px;
+    font-size: 30px;
+    position: absolute;
+}
+
+footer {
+    background-image: url(../images/textured-metal-background.jpg);
+    margin-top: 50px;
+}
+
+footer img {
+    width: 40px;
+    padding: 7px;
+    top: 14px;
+    position: relative;
+}
+
+footer .section_five {
+    font-family: 'Open Sans', sans-serif;
+    margin: auto;
+    width: 70%;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer .section_five .mealfiy #red_dot2 {
+    top: 50px;
+    left: 170px;
+    position: absolute;
+    background-color: var(--color-primary);
+    width: 7px;
+    height: 7px;
+    border-radius: 50%
+}
+
+footer .section_five .mealfiy {
+    margin-top: 20px;
+    position: relative;
+    width: 20%;
+}
+
+footer .section_five .mealfiy span {
+
+    font-size: 30px;
+}
+
+footer .section_five .mealfiy h3 {
+    text-align: center;
+}
+
+footer .section_five .mealfiy .footer_icons {
+    width: 80%;
+    margin: auto;
+}
+
+footer .section_five .mealfiy .footer_icons span {
+    padding: 15px;
+    font-size: 20px;
+}
+
+
+footer .section_five .newsletter {
+    margin-top: 20px;
+    width: 40%;
+}
+
+footer .section_five .getintouch {
+    margin-top: 20px;
+    width: 20%;
+}
+
+footer .section_five .newsletter .part2 input {
+    width: 70%;
+    padding: 12px;
+}
+
+footer .section_five .newsletter .part2 button {
+    border: var(--color-primary);
+    color: white;
+    padding: 14px;
+    background-color: var(--color-primary);
+}
+
+footer .section_five .newsletter .part3 .part3_links {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+footer .section_five .newsletter .part3 .part3_links .link p {
+    margin-top: -22px;
+    margin-left: 20px;
+
+}
+
+footer .section_five i {
+    padding-right: 4px;
+}
+
+
+footer .section_five .getintouch .getintouch_ico {
+    display: flex;
+}
+
+footer .section_five .getintouch #location {
+    margin-left: 5px;
+}
+
+footer .section_five .getintouch .getintouch_ico span {
+    font-size: 25px;
+    color: var(--color-primary);
+}
+
+footer .section_five .getintouch .getintouch_ico p {
+    margin-top: 7px;
+    padding-left: 10px;
+
+
+}
+
+
+/* Media Query */
+
+
+@media screen and (max-width: 575px) {
+    nav {
+        font-family: 'Open Sans', sans-serif;
+        background-color: white;
+        position: fixed;
+        z-index: 99999999999;
+        width: 100%;
+        height: auto;
+    }
+    
+    nav .container {
+        width: 80%;
+        margin: auto;
+    }
+    
+    nav .navbar {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    
+    nav .navbar .logo {
+        position: relative;
+        width: 80%;
+        margin:auto;
+     
+    }
+    
+    nav .navbar .logo h2 {
+        font-size: 30px;
+        padding-left:100px;
+    
+    }
+    
+    nav .navbar .logo #red_dot {
+        background-color: var(--color-primary);
+        width: 7px;
+        height: 7px;
+        border-radius: 50%;
+        position: absolute;
+        left: 210px;
+        top: 50px;
+    }
+    
+    nav .navbar .links {
+       
+        width: 95%;
+        margin:auto;
+    }
+    
+    nav .navbar .links ul {
+        display: flex;
+        justify-content: space-between;
+        padding: 25px;
+        list-style-type: none;
+    }
+    
+    nav .navbar .links ul li a {
+        color: #7d7d7d;
+        text-decoration: none;
+        font-size: 17px;
+    }
+    
+    nav .navbar .moon {
+        visibility: hidden;
+    }
+    
+}
+
+@media screen and (max-width: 575px) {
+    footer {
+        background-image: url(../images/textured-metal-background.jpg);
+        margin-top: 50px;
+    }
+
+    footer img {
+        width: 40px;
+        padding: 7px;
+        top: 14px;
+        position: relative;
+    }
+
+    footer .section_five {
+        font-family: 'Open Sans', sans-serif;
+        margin: auto;
+        width: 70%;
+        color: white;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+
+    }
+
+    footer .section_five .mealfiy #red_dot2 {
+        top: 50px;
+        left: 170px;
+        position: absolute;
+        background-color: var(--color-primary);
+        width: 7px;
+        height: 7px;
+        border-radius: 50%
+    }
+
+    footer .section_five .mealfiy {
+        margin-top: 20px;
+        position: relative;
+        width: 100%;
+    }
+
+    footer .section_five .mealfiy span {
+        font-size: 30px;
+    }
+
+    footer .section_five .mealfiy h3 {
+        text-align: center;
+    }
+
+    footer .section_five .mealfiy .footer_icons {
+        width: 90%;
+        margin: auto;
+    }
+
+    footer .section_five .mealfiy .footer_icons span {
+        padding: 25px;
+        font-size: 20px;
+    }
+
+
+    footer .section_five .newsletter {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    footer .section_five .getintouch {
+        margin-top: 20px;
+
+        width: 100%;
+    }
+
+    footer .section_five .newsletter .part2 input {
+        width: 92%;
+        padding: 12px;
+    }
+
+    footer .section_five .newsletter .part2 button {
+        width: 100%;
+        margin-top: 10px;
+        border: var(--color-primary);
+        color: white;
+        padding: 14px;
+        background-color: var(--color-primary);
+    }
+
+    footer .section_five .newsletter .part3 .part3_links {
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+    }
+
+    footer .section_five .newsletter .part3 .part3_links .link p {
+        margin-top: -22px;
+        margin-left: 20px;
+
+    }
+
+    footer .section_five i {
+        padding-right: 4px;
+    }
+
+
+    footer .section_five .getintouch .getintouch_ico {
+        display: flex;
+    }
+
+    footer .section_five .getintouch #location {
+        margin-left: 5px;
+    }
+
+    footer .section_five .getintouch .getintouch_ico span {
+        font-size: 25px;
+        color: var(--color-primary);
+    }
+
+    footer .section_five .getintouch .getintouch_ico p {
+        margin-top: 7px;
+        padding-left: 10px;
+    }
+
+
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+
+    footer {
+        background-image: url(../images/textured-metal-background.jpg);
+        margin-top: 50px;
+    }
+
+    footer img {
+        width: 40px;
+        padding: 7px;
+        top: 14px;
+        position: relative;
+
+    }
+
+    footer .section_five {
+        font-family: 'Open Sans', sans-serif;
+        margin: auto;
+        width: 70%;
+        color: white;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+
+    }
+
+    footer .section_five .mealfiy #red_dot2 {
+        top: 50px;
+        left: 170px;
+        position: absolute;
+        background-color: var(--color-primary);
+        width: 7px;
+        height: 7px;
+        border-radius: 50%
+    }
+
+    footer .section_five .mealfiy {
+        margin-top: 20px;
+        position: relative;
+        width: 100%;
+    }
+
+    footer .section_five .mealfiy span {
+        font-size: 30px;
+    }
+
+    footer .section_five .mealfiy h3 {
+        text-align: center;
+    }
+
+    footer .section_five .mealfiy .footer_icons {
+        width: 80%;
+        margin: auto;
+    }
+
+    footer .section_five .mealfiy .footer_icons span {
+        padding: 35px;
+        font-size: 30px;
+    }
+
+
+    footer .section_five .newsletter {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    footer .section_five .getintouch {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+
+    footer .section_five .newsletter .part2 input {
+        width: 70%;
+        padding: 10px;
+    }
+
+    footer .section_five .newsletter .part2 button {
+        width: 20%;
+        margin-top: 10px;
+        border: var(--color-primary);
+        color: white;
+        padding: 12px;
+        background-color: var(--color-primary);
+    }
+
+    footer .section_five .newsletter .part3 .part3_links {
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+    }
+
+    footer .section_five .newsletter .part3 .part3_links .link p {
+        margin-top: -22px;
+        margin-left: 20px;
+    }
+
+    footer .section_five i {
+        padding-right: 4px;
+    }
+
+    footer .section_five .getintouch .getintouch_ico {
+        display: flex;
+    }
+
+    footer .section_five .getintouch #location {
+        margin-left: 5px;
+    }
+
+    footer .section_five .getintouch .getintouch_ico span {
+        font-size: 25px;
+        color: var(--color-primary);
+    }
+
+    footer .section_five .getintouch .getintouch_ico p {
+        margin-top: 7px;
+        padding-left: 10px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+    footer {
+        background-image: url(../images/textured-metal-background.jpg);
+        margin-top: 50px;
+    }
+
+    footer img {
+        width: 40px;
+        padding: 7px;
+        top: 14px;
+        position: relative;
+    }
+
+    footer .section_five {
+        font-family: 'Open Sans', sans-serif;
+        margin: auto;
+        width: 80%;
+        color: white;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    footer .section_five .mealfiy #red_dot2 {
+        top: 50px;
+        left: 170px;
+        position: absolute;
+        background-color: var(--color-primary);
+        width: 7px;
+        height: 7px;
+        border-radius: 50%
+    }
+
+    footer .section_five .mealfiy {
+        margin-top: 20px;
+        order: 1;
+        position: relative;
+        width: 47%;
+    }
+
+    footer .section_five .mealfiy span {
+
+        font-size: 30px;
+    }
+
+    footer .section_five .mealfiy h3 {
+        text-align: center;
+    }
+
+    footer .section_five .mealfiy .footer_icons {
+        width: 80%;
+        margin: auto;
+
+    }
+
+    footer .section_five .mealfiy .footer_icons span {
+        padding: 15px;
+        font-size: 25px;
+    }
+
+
+    footer .section_five .newsletter {
+        margin-top: 20px;
+        order: 3;
+        width: 100%;
+    }
+
+    footer .section_five .getintouch {
+        margin-left: 30px;
+        margin-top: 20px;
+        order: 2;
+        width: 47%;
+    }
+
+
+    footer .section_five .newsletter .part2 input {
+        width: 70%;
+        padding: 10px;
+    }
+
+    footer .section_five .newsletter .part2 button {
+        width: 20%;
+        margin-top: 10px;
+        border: var(--color-primary);
+        color: white;
+        padding: 12px;
+        background-color: var(--color-primary);
+    }
+
+    footer .section_five .newsletter .part3 .part3_links {
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+    }
+
+    footer .section_five .newsletter .part3 .part3_links .link p {
+        margin-top: -22px;
+        margin-left: 20px;
+    }
+
+    footer .section_five i {
+        padding-right: 4px;
+    }
+
+
+    footer .section_five .getintouch .getintouch_ico {
+        display: flex;
+    }
+
+    footer .section_five .getintouch #location {
+        margin-left: 5px;
+    }
+
+    footer .section_five .getintouch .getintouch_ico span {
+        font-size: 25px;
+        color: var(--color-primary);
+    }
+
+    footer .section_five .getintouch .getintouch_ico p {
+        margin-top: 7px;
+        padding-left: 10px;
+    }
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+
+    footer {
+        background-image: url(../images/textured-metal-background.jpg);
+        margin-top: 50px;
+    }
+
+    footer img {
+        width: 40px;
+        padding: 7px;
+        top: 14px;
+        position: relative;
+    }
+
+    footer .section_five {
+        font-family: 'Open Sans', sans-serif;
+        margin: auto;
+        width: 80%;
+        color: white;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    footer .section_five .mealfiy #red_dot2 {
+        top: 50px;
+        left: 170px;
+        position: absolute;
+        background-color: var(--color-primary);
+        width: 7px;
+        height: 7px;
+        border-radius: 50%
+    }
+
+    footer .section_five .mealfiy {
+        margin-top: 20px;
+        order: 1;
+        position: relative;
+        width: 47%;
+    }
+
+    footer .section_five .mealfiy span {
+        font-size: 30px;
+    }
+
+    footer .section_five .mealfiy h3 {
+        text-align: center;
+    }
+
+    footer .section_five .mealfiy .footer_icons {
+        width: 80%;
+        margin: auto;
+    }
+
+    footer .section_five .mealfiy .footer_icons span {
+        padding: 15px;
+        font-size: 25px;
+    }
+
+
+    footer .section_five .newsletter {
+        margin-top: 20px;
+        order: 3;
+        width: 100%;
+    }
+
+    footer .section_five .getintouch {
+        margin-left: 30px;
+        margin-top: 20px;
+        order: 2;
+        width: 47%;
+    }
+
+    footer .section_five .newsletter .part2 input {
+        width: 70%;
+        padding: 10px;
+    }
+
+    footer .section_five .newsletter .part2 button {
+        width: 20%;
+        margin-top: 10px;
+        border: var(--color-primary);
+        color: white;
+        padding: 12px;
+        background-color: var(--color-primary);
+    }
+
+    footer .section_five .newsletter .part3 .part3_links {
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+    }
+
+    footer .section_five .newsletter .part3 .part3_links .link p {
+        margin-top: -22px;
+        margin-left: 20px;
+
+    }
+
+    footer .section_five i {
+        padding-right: 4px;
+    }
+
+
+    footer .section_five .getintouch .getintouch_ico {
+        display: flex;
+    }
+
+    footer .section_five .getintouch #location {
+        margin-left: 5px;
+    }
+
+    footer .section_five .getintouch .getintouch_ico span {
+        font-size: 25px;
+        color: var(--color-primary);
+    }
+
+    footer .section_five .getintouch .getintouch_ico p {
+        margin-top: 7px;
+        padding-left: 10px;
+    }
+}
